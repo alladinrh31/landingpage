@@ -121,7 +121,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
   int deliveryType = 1;
 
   Future<void> submitToSheet() async {
-    const String sheetUrl = 'https://script.google.com/macros/s/AKfycbyhnKbZKvYuZCSteQsQcKYGcVj7LwoWnWoU5Ua8EEIm31gTCBD7K-OVQwq_ztXEmEi6/exec';
+    const String sheetUrl = 'https://script.google.com/macros/s/AKfycbxpPlC9xW0w6cUnQ4lg4FBNEVi0eOtiKDAV8TJPT2rjeo6FzIcI1WBrRsq33A-0Onqm/exec';
 
     final response = await http.post(
       Uri.parse(sheetUrl),
